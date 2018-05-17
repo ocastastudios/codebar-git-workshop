@@ -2,8 +2,11 @@
 
 Copy and paste the following commands in the terminal to follow along with the slides
 
-## The command line
+# Part 1
+
+### The command line
 _Slide 10:_
+
 
 ```
 
@@ -12,8 +15,9 @@ ls -al
 
 ```
 
-## Configuration
+### Configuration
 _Slide 12:_
+
 
 Configure git with your name and email.
 Replace "Your name" and "name@example.com" in the commands below with your name and email address
@@ -25,8 +29,9 @@ git config --global user.email "name@example.com"
 
 ```
 
-## Git Init
+### Git Init
 _Slide 13:_
+
 
 Make a new git repository
 
@@ -51,12 +56,14 @@ git init
 
 _Slide 14:_
 
+
 ```
 ls -al .git
 ```
 
-## Our first commands
+### Our first commands
 _Slide 15:_
+
 Git status shows the current state of changes
 Git log shows a list of commits
 
@@ -65,20 +72,80 @@ git status
 git log
 ```
 
-## Git add
+### Git add
 _Slide 20:_
 
-Create a file Readme.txt in the directory. Then add it to git
+
+Create a file README.txt in the directory. Then add it to git
 ```
 git add README.txt
 git status
 ```
 
-## Our first commit
+### Our first commit
 _Slide 23:_
+
 Commit our new file
 ```
 git commit -m "My first commit"
 git log
+```
 
+### Editing a file
+_Slide 25:_
+
+Make an edit to Readme.txt and then check the status
+```
+git status
+git diff
+```
+### Git add and commit
+_Slide 26:_
+
+```
+git add README.txt
+git commit -m "Edited Readme"
+```
+
+### Checkout
+_Slide 27:_
+
+Discard changes using checkout.
+Make some changes to README.txt and then...
+
+```
+git status
+git checkout README.txt
+git status
+```
+
+### Reset
+_Slide 28:_
+
+Remove a file tracked in git
+```
+touch hello.txt
+git add hello.txt
+git status
+git reset hello.txt
+git status
+rm hello.txt
+```
+
+### Removing files
+_Slide 29:_
+
+Remove a file tracked in git
+```
+git rm README.txt
+git status
+git commit -m "Removed readme"
+git log
+```
+
+### History
+_Slide 30:_
+
+```
+git log
 ```
