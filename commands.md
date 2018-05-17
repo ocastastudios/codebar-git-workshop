@@ -149,3 +149,55 @@ _Slide 30:_
 ```
 git log
 ```
+
+## Part 2
+
+### Master
+_Slide 36:_
+```
+git status
+```
+
+### Git branch
+_Slide 37:_
+```
+git branch mybranch
+git branch
+```
+
+### Checkout
+_Slide 38:_
+```
+git checkout mybranch
+touch mybranch.txt
+git add mybranch.txt
+git commit -m "commit on mybranch"
+git log
+```
+
+
+### Parallel branches
+_Slide 39:_
+```
+git checkout master
+git log
+```
+
+### Vice versa
+_Slide 40:_
+```
+touch master.txt
+git add master.txt
+git commit -m "commit on master"
+git checkout mybranch
+git log
+```
+
+### Git clone
+_Slide 46:_
+
+Clone the repository for this afternoon
+```
+cd ..
+git clone https://github.com/ocastastudios/codebar-git-workshop.git
+```
