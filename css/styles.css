@@ -13,7 +13,8 @@
 
 /*------------------Global Styles---------------------*/
 
-body {}
+
+/* body {}
 
 h1,
 h2,
@@ -22,12 +23,13 @@ h4 {}
 
 p {}
 
-a {}
+a {} */
 
 
 /*------------------Header and Nav---------------------*/
 
-header {}
+
+/* header {}
 
 nav {}
 
@@ -41,12 +43,13 @@ nav ul li a:hover {}
 
 nav ul li a:active {}
 
-.active {}
+.active {} */
 
 
 /*------------------Schedule---------------------*/
 
-.schedule {}
+
+/* .schedule {}
 
 .time {}
 
@@ -60,12 +63,13 @@ nav ul li a:active {}
 
 .drinks {}
 
-.time {}
+.time {} */
 
 
 /*------------------Group 1---------------------*/
 
-.groups h2:nth-of-type(1) {}
+
+/* .groups h2:nth-of-type(1) {}
 
 .group1 {}
 
@@ -73,12 +77,13 @@ nav ul li a:active {}
 
 .group1 .person h4 {}
 
-.group1 .person img {}
+.group1 .person img {} */
 
 
 /*------------------Group 2---------------------*/
 
-.groups h2:nth-of-type(1) {}
+
+/* .groups h2:nth-of-type(1) {}
 
 .group1 {}
 
@@ -86,12 +91,13 @@ nav ul li a:active {}
 
 .group1 .person h4 {}
 
-.group1 .person img {}
+.group1 .person img {} */
 
 
 /*------------------Group 3---------------------*/
 
-.groups h2:nth-of-type(1) {}
+
+/* .groups h2:nth-of-type(1) {}
 
 .group1 {}
 
@@ -99,12 +105,13 @@ nav ul li a:active {}
 
 .group1 .person h4 {}
 
-.group1 .person img {}
+.group1 .person img {} */
 
 
 /*------------------Group 4---------------------*/
 
-.groups h2:nth-of-type(1) {}
+
+/* .groups h2:nth-of-type(1) {}
 
 .group1 {}
 
@@ -112,11 +119,12 @@ nav ul li a:active {}
 
 .group1 .person h4 {}
 
-.group1 .person img {}
+.group1 .person img {} */
 
 
 /*------------------Footer---------------------*/
 
-footer {}
 
-.footer-logo {}
+/* footer {}
+
+.footer-logo {} */
