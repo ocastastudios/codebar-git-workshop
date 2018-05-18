@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>codebar Git workshop setup</title>
+    <meta name="author" content="codebar">
+    <meta name="description" content="Setup Git workshop">
+    <meta name="keywords" content="git codebar workshop version control setup">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.0/normalize.min.css" type="text/css">
+    <link rel="stylesheet" href="css/styles.css" type="text/css">
+    <link rel="stylesheet" href="css/layout.css" type="text/css">
+
+</head>
+
+<body>
+    <header>
+        <a href="https://codebar.io/" target="_blank">
+            <img src="images/git-logo.svg" alt="codebar brighton git logo" class="logo">
+        </a>
+        <nav id="nav">
+            <ul>
+                <li> <a href="index.html">Schedule</a></li>
+                <li> <a href="setup.html">Set Up</a></li>
+                <li> <a href="groups.html">The Groups</a></li>
+                <li> <a href="http://gitforthe.win/commands" target="_blank">Commands</a></li>
+            </ul>
+        </nav>
+
+    </header>
+
+    <div class="main">
+
+        <section>
+
+            <h1>Git installation</h1>
+            <h2>In order to use Git, you need to make sure it's available on your platform. Follow the instructions below to make sure you're set up.</h2>
+
+            <h2>Mac</h2>
+            <p>Luckily, Git comes with Mac by default, but you might need to enable it.</p>
+            <ol>
+                <li>
+                    <p>Open your terminal. If you've never done this before you can find it in Applications &gt; Utilities &gt; Terminal.</p>
+                </li>
+                <li>
+                    <p>Type <code>git --version</code> and press enter.</p>
+                </li>
+                <li>
+                    <p>If you see something like <code>git version 2.14.3 (Apple Git-98)</code> then you're already set up!</p>
+                </li>
+                <li>
+                    <p>If you see a popup like the following, then click <strong>Install</strong> and follow the instructions.</p>
+                    <img src="https://camo.githubusercontent.com/3b7ea730fb81698fde2da7edfc75285e601792ba/687474703a2f2f63646e2e6f73786461696c792e636f6d2f77702d636f6e74656e742f75706c6f6164732f323031342f30322f636f6e6669726d2d696e7374616c6c2d636f6d6d616e642d6c696e652d746f6f6c732d6d61632d6f732d782e6a7067"
+                        alt="">
+                </li>
+                <li>
+                    <p>Once installed, go back to step 1 and check you're set up.</p>
+                </li>
+            </ol>
+
+            <h2>Windows</h2>
+            <p>The easiest way to use Git on Windows is using.... Git for windows.</p>
+            <ol>
+                <li>
+                    <p>Go to <a href="https://gitforwindows.org/">gitforwindows.org</a></p>
+                </li>
+                <li>
+                    <p>Click <strong>Download</strong></p>
+                </li>
+                <li>
+                    <p>Click on <strong>Git-2.17.0-64-bit.exe</strong> if you're using a 64-bit version of Windows (most modern versions of Windows are 64-bit). Otherwise click <strong>Git-2.17.0-32-bit.exe</strong>. If you are unsure, there's a
+                        <a href="https://support.microsoft.com/en-gb/help/827218/how-to-determine-whether-a-computer-is-running-a-32-bit-version-or-64">handy guide here</a>.
+                    </p>
+                </li>
+                <li>
+                    <p>When you've successfully started the installer, you should see the <em>Git Setup wizard</em> screen.</p>
+                </li>
+                <li>
+                    <p>Follow the <strong>Next</strong> and <strong>Finish</strong> prompts to complete the installation. The default options are pretty sensible for most users, so don't worry if you're not sure.</p>
+                </li>
+            </ol>
+            <p>To use it, simply open <strong>Git BASH</strong>. A simple way to do this is to right click the folder you want to work within in Windows Explorer and select <strong>Git BASH</strong>.</p>
+            <img src="https://camo.githubusercontent.com/c2137fe3ee5f95ce710f532e510650261362c1be/68747470733a2f2f676974666f7277696e646f77732e6f72672f696d672f6777312e706e67" alt="">
+
+            <h2>Linux</h2>
+            <p>Simply install Git with the package manager which comes with your Linux distribution (Ubuntu, Fedora etc).</p>
+
+            <h3>(Ubuntu)</h3>
+            <ol>
+                <li>
+                    <p>Open <strong>Terminal</strong></p>
+                </li>
+                <li>
+                    <p>Type <code>sudo apt-get update</code> and press enter. You'll be asked for your password. Note that it won't look like you're typing.</p>
+                </li>
+                <li>
+                    <p>Type <code>sudo apt-get install git</code></p>
+                </li>
+            </ol>
+
+            <h3>Fedora</h3>
+            <ol>
+                <li>
+                    <p>Open <strong>Terminal</strong></p>
+                </li>
+                <li>
+                    <p>Type <code>sudo yum install git</code> and press enter. You'll be asked for your password. Note that it won't look like you're typing</p>
+                </li>
+            </ol>
+
+
+            <h2>Bonus Exercise</h2>
+            <p>To start using Git to version control your files, you'll need to provide your name and email address.</p>
+            <p>We'll cover this in the workshop, but if you're feeling studious and want to be ahead of the game, then open Terminal (Mac) or Git BASH (Windows):</p>
+            <ol>
+                <li>
+                    <p>Type <code>git config --global user.name "Your name"</code> to set your name.</p>
+                </li>
+                <li>
+                    <p>Type <code>git config --global user.email "your@email.com"</code> to set your email.</p>
+                </li>
+            </ol>
+
+
+            <h2>links</h2>
+            <p>If you're having trouble, there's a useful guide available at <a href="https://www.atlassian.com/git/tutorials/install-git" rel="nofollow">www.atlassian.com/git/tutorials/install-git</a> which covers installing git in some depth. If you're
+                still having trouble, then bring your questions to a Codebar session or the workshop and we'll help you out.</p>
+        </section>
+    </div>
+
+    <footer>
+        <div class="footer-logo">
+            <p>Sponsored by</p>
+            <a href="https://ocasta.com/" target="_blank">
+                <img src="images/ocasta-logo.svg" alt="ocasta logo" class="logo">
+            </a>
+        </div>
+        <div class="footer-logo">
+            <p>Hosted by</p>
+            <a href="https://clearleft.com/" target="_blank">
+                <img src="images/clearleft-logo.png" alt="clearleft logo" class="logo">
+            </a>
+        </div>
+    </footer>
+    <script src="js/nav.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,122 @@
+/* ==========================================================================
+   Here's some handy bits for styling the page!
+
+   Blue - #4bafff 
+   Green - #19f3be 
+   Pink - #ff036a 
+   Dark Grey - #37444a
+   
+   font-family: 'Montserrat', sans-serif;
+
+   ========================================================================== */
+
+
+/*------------------Global Styles---------------------*/
+
+body {}
+
+h1,
+h2,
+h3,
+h4 {}
+
+p {}
+
+a {}
+
+
+/*------------------Header and Nav---------------------*/
+
+header {}
+
+nav {}
+
+nav ul li {}
+
+nav ul li {}
+
+nav ul li a {}
+
+nav ul li a:hover {}
+
+nav ul li a:active {}
+
+.active {}
+
+
+/*------------------Schedule---------------------*/
+
+.schedule {}
+
+.time {}
+
+.coffee {}
+
+.morning {}
+
+.lunch {}
+
+.afternoon {}
+
+.drinks {}
+
+.time {}
+
+
+/*------------------Group 1---------------------*/
+
+.groups h2:nth-of-type(1) {}
+
+.group1 {}
+
+.group1 .person {}
+
+.group1 .person h4 {}
+
+.group1 .person img {}
+
+
+/*------------------Group 2---------------------*/
+
+.groups h2:nth-of-type(1) {}
+
+.group1 {}
+
+.group1 .person {}
+
+.group1 .person h4 {}
+
+.group1 .person img {}
+
+
+/*------------------Group 3---------------------*/
+
+.groups h2:nth-of-type(1) {}
+
+.group1 {}
+
+.group1 .person {}
+
+.group1 .person h4 {}
+
+.group1 .person img {}
+
+
+/*------------------Group 4---------------------*/
+
+.groups h2:nth-of-type(1) {}
+
+.group1 {}
+
+.group1 .person {}
+
+.group1 .person h4 {}
+
+.group1 .person img {}
+
+
+/*------------------Footer---------------------*/
+
+footer {}
+
+.footer-logo {}
