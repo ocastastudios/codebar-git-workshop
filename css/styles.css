@@ -1,12 +1,32 @@
 /* ==========================================================================
-   Here's some handy bits for styling the page!
+  
+   How you style the page is up to you. Look to the design guides for help or just wing it!
+   We've sorted the layout for you, you lucky things, so treat this like a coloring book.
+
+   Remember, the most important bit today is learning about git (don't get too hung up on perfection)
+   
+   Here's some bits that will come in handy.
+   
+   ----Colours!----
 
    Blue - #4bafff 
    Green - #19f3be 
    Pink - #ff036a 
    Dark Grey - #37444a
+
+   ----Font stuff!----
    
    font-family: 'Montserrat', sans-serif;
+   
+   font-weight: 400;
+   font-weight: 600;
+
+   ----CSS properties----
+   
+   border-bottom: #19f3be 4px solid;
+   background-color: #ff036a;
+   color: #37444a;
+
 
    ========================================================================== */
 
@@ -35,13 +55,15 @@ nav {}
 
 nav ul li {}
 
-nav ul li {}
-
 nav ul li a {}
 
-nav ul li a:hover {}
+nav ul li a:hover {} */
 
-nav ul li a:active {}
+
+/* use both of these classes to style the active nav link */
+
+
+/* nav ul li a:active {}
 
 .active {} */
 
