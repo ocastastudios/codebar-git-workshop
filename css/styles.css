@@ -102,7 +102,7 @@ div.setup code {}
 /*------------------Group 1---------------------*/
 
 
-/* .groups h2:nth-of-type(1) {}
+/*.groups h2:nth-of-type(1) {}
 
 .group1 {}
 
@@ -115,45 +115,53 @@ div.setup code {}
 
 /*------------------Group 2---------------------*/
 
+/* .groups h2:nth-of-type(2) {}
 
-/* .groups h2:nth-of-type(1) {}
+.group2 {}
 
-.group1 {}
+.group2 .person {}
 
-.group1 .person {}
+.group2 .person h4 {}
 
-.group1 .person h4 {}
-
-.group1 .person img {} */
+.group2 .person img {} */
 
 
 /*------------------Group 3---------------------*/
 
+/* .groups h2:nth-of-type(3) {}
 
-/* .groups h2:nth-of-type(1) {}
+.group3 {}
 
-.group1 {}
+.group3 .person {}
 
-.group1 .person {}
+.group3 .person h4 {}
 
-.group1 .person h4 {}
-
-.group1 .person img {} */
+.group3 .person img {} */
 
 
 /*------------------Group 4---------------------*/
 
+/* .groups h2:nth-of-type(4) {}
 
-/* .groups h2:nth-of-type(1) {}
+.group4 {}
 
-.group1 {}
+.group4 .person {}
 
-.group1 .person {}
+.group4 .person h4 {}
 
-.group1 .person h4 {}
+.group4 .person img {} */
 
-.group1 .person img {} */
+/*------------------Group 5---------------------*/
 
+/* .groups h2:nth-of-type(5) {}
+
+.group5 {}
+
+.group5 .person {}
+
+.group5 .person h4 {}
+
+.group5 .person img {} */
 
 /*------------------Footer---------------------*/
 
