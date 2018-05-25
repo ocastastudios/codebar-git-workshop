@@ -58,6 +58,7 @@ _Slide 14:_
 
 
 ```
+ls -al
 ls -al .git
 ```
 
