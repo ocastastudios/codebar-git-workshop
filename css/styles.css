@@ -213,10 +213,14 @@ div.setup code {
 
 .group4 .person {}
 
-.group4 .person h4 {}
+.group4 .person h4 {}*/
 
-.group4 .person img {} */
-
+.group4 .person img {
+  filter:grayscale(100%);
+} 
+.group4 .person img:hover {
+  filter: hue-rotate(-150deg)
+}
 .cherry {
   color: #c40000;
 }
