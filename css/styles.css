@@ -35,7 +35,7 @@
 
 
 body {
-  font-family: Montserrat, sans-serif, arial; 
+  font-family: Montserrat, arial, sans-serif; 
 }
 
 h1,
@@ -51,7 +51,9 @@ a {}
 /*------------------Header and Nav---------------------*/
 
 
-/* header {}
+header {
+
+}
 
 nav {}
 
@@ -59,7 +61,8 @@ nav ul li {}
 
 nav ul li a {}
 
-nav ul li a:hover {} */
+nav ul li a:hover {}
+
 
 
 /* use both of these classes to style the active nav link */
