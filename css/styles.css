@@ -99,7 +99,9 @@ div.setup a {
   color: #ff036a;
 }
 
-div.setup strong {}
+div.setup strong {
+  background-color: #4bafff;
+}
 
 div.setup code {}
 
