@@ -58,6 +58,7 @@ _Slide 14:_
 
 
 ```
+ls -al
 ls -al .git
 ```
 
@@ -372,7 +373,7 @@ For example, if you want to add the file _README.txt_, the command `git add <fil
 - Create a branch
 
     ```
-    git <branchname>
+    git branch <branchname>
     ```
 
 - Checkout onto a branch
