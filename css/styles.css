@@ -1,28 +1,28 @@
 /* ==========================================================================
-  
+
    How you style the page is up to you. Look to the design guides for help or just wing it!
    We've sorted the layout for you, you lucky things, so treat this like a coloring book.
 
    Remember, the most important bit today is learning about git (don't get too hung up on perfection)
-   
+
    Here's some bits that will come in handy.
-   
+
    ----Colours!----
 
-   Blue - #4bafff 
-   Green - #19f3be 
-   Pink - #ff036a 
+   Blue - #4bafff
+   Green - #19f3be
+   Pink - #ff036a
    Dark Grey - #37444a
 
    ----Font stuff!----
-   
+
    font-family: 'Montserrat', sans-serif;
-   
+
    font-weight: 400;
    font-weight: 600;
 
    ----CSS properties----
-   
+
    border-bottom: #19f3be 4px solid;
    background-color: #ff036a;
    color: #37444a;
@@ -33,8 +33,9 @@
 
 /*------------------Global Styles---------------------*/
 
-
-/* body {}
+body {
+  font-family: Montserrat, arial, sans-serif;
+}
 
 h1,
 h2,
@@ -43,66 +44,110 @@ h4 {}
 
 p {}
 
-a {} */
+a {}
 
 
 /*------------------Header and Nav---------------------*/
 
+header {}
 
-/* header {}
-
-nav {}
+nav {
+  border-bottom: 5px solid #ff036a;
+}
 
 nav ul li {}
 
-nav ul li a {}
+nav ul li a {
+  color: #37444a;
+  text-decoration: none;
+}
 
-nav ul li a:hover {} */
+nav ul li a:hover {
+  color: #ffffff;
+  background-color: #ff036a;
+  border-radius: 0.5em 0.5em 0 0;
+}
 
 
 /* use both of these classes to style the active nav link */
 
 
-/* nav ul li a:active {}
+nav ul li a:active {
+  color: #ffffff;
+  background-color: #ff036a;
+  border-radius: 0.5em 0.5em 0 0;
+  padding-top: 2px;
+}
 
-.active {} */
+.active {
+  color: #ffffff;
+  background-color: #ff036a;
+  border-radius: 0.5em 0.5em 0 0;
+}
 
 
 /*------------------Schedule---------------------*/
 
+.schedule {
+    background-color: #ffffff;
+}
 
-/* .schedule {}
+.schedule p {
+    font-size: 1em;
+}
 
-.time {}
+.time {
+    background-color: #37444a;
+    color: #ffffff;
+}
 
-.coffee {}
+.coffee {
+    background-color: #4bafff;
+}
 
-.morning {}
+.morning {
+    background-color: #19f3be;
+}
 
-.lunch {}
+.lunch {
+    background-color: #ff036a;
+    color: #ffffff;
+}
 
-.afternoon {}
+.afternoon {
+    background-color: #19f3be;
+}
 
-.drinks {}
+.drinks {
+    background: #4bafff;
+}
 
-.time {} */
 
 /*------------------Setup page---------------------*/
-/*
 
-div.setup a {}
 
-div.setup strong {}
+div.setup a {
+  color: #ff036a;
+}
 
-div.setup code {}
+div.setup strong {
+  background-color: #4bafff;
+}
 
-*/
+div.setup code {
+  font-style: italic;
+}
+
+
 
 
 /*------------------Group 1---------------------*/
 
 
-/*.groups h2:nth-of-type(1) {}
+.groups h2:nth-of-type(1) {
+  background-color: #19f3be;
+  text-align: center;
+}
 
 .group1 {}
 
@@ -110,10 +155,11 @@ div.setup code {}
 
 .group1 .person h4 {}
 
-.group1 .person img {} */
+.group1 .person img {}
 
 
 /*------------------Group 2---------------------*/
+
 
 /* .groups h2:nth-of-type(2) {}
 
@@ -128,6 +174,7 @@ div.setup code {}
 
 /*------------------Group 3---------------------*/
 
+
 /* .groups h2:nth-of-type(3) {}
 
 .group3 {}
@@ -141,6 +188,7 @@ div.setup code {}
 
 /*------------------Group 4---------------------*/
 
+
 /* .groups h2:nth-of-type(4) {}
 
 .group4 {}
@@ -151,21 +199,14 @@ div.setup code {}
 
 .group4 .person img {} */
 
-/*------------------Group 5---------------------*/
+.cherry {
+  color: #c40000;
+}
 
-/* .groups h2:nth-of-type(5) {}
-
-.group5 {}
-
-.group5 .person {}
-
-.group5 .person h4 {}
-
-.group5 .person img {} */
 
 /*------------------Footer---------------------*/
 
-
-/* footer {}
-
-.footer-logo {} */
+footer {
+  background-color: #4bafff;
+}
+.footer-logo {}
