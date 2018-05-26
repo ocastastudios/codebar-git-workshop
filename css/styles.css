@@ -33,9 +33,8 @@
 
 /*------------------Global Styles---------------------*/
 
-
 body {
-  font-family: Montserrat, arial, sans-serif; 
+    font-family: Montserrat, arial, sans-serif;
 }
 
 h1,
@@ -50,10 +49,7 @@ a {}
 
 /*------------------Header and Nav---------------------*/
 
-
-header {
-
-}
+header {}
 
 nav {}
 
@@ -62,7 +58,6 @@ nav ul li {}
 nav ul li a {}
 
 nav ul li a:hover {}
-
 
 
 /* use both of these classes to style the active nav link */
@@ -75,24 +70,44 @@ nav ul li a:hover {}
 
 /*------------------Schedule---------------------*/
 
+.schedule {
+    background-color: #ffffff;
+}
 
-/* .schedule {}
+.schedule p {
+    font-size: 1em;
+}
 
-.time {}
+.time {
+    background-color: #37444a;
+    color: #ffffff;
+}
 
-.coffee {}
+.coffee {
+    background-color: #4bafff;
+}
 
-.morning {}
+.morning {
+    background-color: #19f3be;
+}
 
-.lunch {}
+.lunch {
+    background-color: #ff036a;
+    color: #ffffff;
+}
 
-.afternoon {}
+.afternoon {
+    background-color: #19f3be;
+}
 
-.drinks {}
+.drinks {
+    background: #4bafff;
+}
 
-.time {} */
 
 /*------------------Setup page---------------------*/
+
+
 /*
 
 div.setup a {}
@@ -120,6 +135,7 @@ div.setup code {}
 
 /*------------------Group 2---------------------*/
 
+
 /* .groups h2:nth-of-type(2) {}
 
 .group2 {}
@@ -132,6 +148,7 @@ div.setup code {}
 
 
 /*------------------Group 3---------------------*/
+
 
 /* .groups h2:nth-of-type(3) {}
 
@@ -146,6 +163,7 @@ div.setup code {}
 
 /*------------------Group 4---------------------*/
 
+
 /* .groups h2:nth-of-type(4) {}
 
 .group4 {}
@@ -155,6 +173,7 @@ div.setup code {}
 .group4 .person h4 {}
 
 .group4 .person img {} */
+
 
 /*------------------Footer---------------------*/
 
