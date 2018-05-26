@@ -77,11 +77,18 @@ nav ul li a:hover {
 /* use both of these classes to style the active nav link */
 
 
-/* nav ul li a:active {
-  
+nav ul li a:active {
+  color: #ffffff;
+  background-color: #ff036a;
+  border-radius: 0.5em 0.5em 0 0;
+  padding-top: 2px;
 }
 
-.active {} */
+.active {
+  color: #ffffff;
+  background-color: #ff036a;
+  border-radius: 0.5em 0.5em 0 0;
+}
 
 
 /*------------------Schedule---------------------*/
