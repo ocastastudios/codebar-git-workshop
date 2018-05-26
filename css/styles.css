@@ -1,4 +1,4 @@
-/* ==========================================================================
+ /* ==========================================================================
 
    How you style the page is up to you. Look to the design guides for help or just wing it!
    We've sorted the layout for you, you lucky things, so treat this like a coloring book.
@@ -33,9 +33,8 @@
 
 /*------------------Global Styles---------------------*/
 
-body {
-  font-family: Montserrat, arial, sans-serif;
-}
+
+/* body {}
 
 h1,
 h2,
@@ -44,29 +43,21 @@ h4 {}
 
 p {}
 
-a {}
+a {} */
 
 
 /*------------------Header and Nav---------------------*/
 
-header {}
 
-nav {
-  border-bottom: 5px solid #ff036a;
-}
+/* header {}
+
+nav {}
 
 nav ul li {}
 
-nav ul li a {
-  color: #37444a;
-  text-decoration: none;
-}
+nav ul li a {}
 
-nav ul li a:hover {
-  color: #ffffff;
-  background-color: #ff036a;
-  border-radius: 0.5em 0.5em 0 0;
-}
+nav ul li a:hover {} */
 
 
 /* use both of these classes to style the active nav link */
@@ -77,75 +68,44 @@ nav ul li a:active {
   border-radius: 0.5em 0.5em 0 0;
 }
 
-.active {
-  color: #ffffff;
-  background-color: #ff036a;
-  border-radius: 0.5em 0.5em 0 0;
-}
+.active {} */
 
 
 /*------------------Schedule---------------------*/
 
-.schedule {
-    background-color: #ffffff;
-}
 
-.schedule p {
-    font-size: 1em;
-}
+/* .schedule {}
 
-.time {
-    background-color: #37444a;
-    color: #ffffff;
-}
+.time {}
 
-.coffee {
-    background-color: #4bafff;
-}
+.coffee {}
 
-.morning {
-    background-color: #19f3be;
-}
+.morning {}
 
-.lunch {
-    background-color: #ff036a;
-    color: #ffffff;
-}
+.lunch {}
 
-.afternoon {
-    background-color: #19f3be;
-}
+.afternoon {}
 
-.drinks {
-    background: #4bafff;
-}
+.drinks {}
 
+.time {} */
 
 /*------------------Setup page---------------------*/
+/*
 
+div.setup a {}
 
-div.setup a {
-  color: #ff036a;
-}
+div.setup strong {}
 
-div.setup strong {
-  background-color: #4bafff;
-}
+div.setup code {}
 
-div.setup code {
-  font-style: italic;
-}
-
-
+*/
 
 
 /*------------------Group 1---------------------*/
 
 
-.groups h2:nth-of-type(1) {
-  background-color: #19f3be;
-  text-align: center;
-}
+/*.groups h2:nth-of-type(1) {}
 
 .group1 {}
 
@@ -153,11 +113,10 @@ div.setup code {
 
 .group1 .person h4 {}
 
-.group1 .person img {}
+.group1 .person img {} */
 
 
 /*------------------Group 2---------------------*/
-
 
 /* .groups h2:nth-of-type(2) {}
 
@@ -171,7 +130,6 @@ div.setup code {
 
 
 /*------------------Group 3---------------------*/
-
 
  .groups h2:nth-of-type(3) {
    text-transform: uppercase;
@@ -204,7 +162,6 @@ div.setup code {
 
 /*------------------Group 4---------------------*/
 
-
 /* .groups h2:nth-of-type(4) {}
 
 .group4 {}
@@ -224,9 +181,6 @@ div.setup code {
 }
 
 
-/*------------------Footer---------------------*/
+/* footer {}
 
-footer {
-  background-color: #4bafff;
-}
-.footer-logo {}
+.footer-logo {} */
