@@ -35,7 +35,7 @@
 
 
 body {
-  font-family: Montserrat, arial, sans-serif; 
+  font-family: Montserrat, arial, sans-serif;
 }
 
 h1,
@@ -93,15 +93,17 @@ nav ul li a:hover {}
 .time {} */
 
 /*------------------Setup page---------------------*/
-/*
 
-div.setup a {}
+
+div.setup a {
+  color: #ff036a;
+}
 
 div.setup strong {}
 
 div.setup code {}
 
-*/
+
 
 
 /*------------------Group 1---------------------*/
