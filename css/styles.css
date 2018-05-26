@@ -55,22 +55,40 @@ header {
 
 }
 
-nav {}
+nav {
+  border-bottom: 5px solid #ff036a;
+}
 
 nav ul li {}
 
-nav ul li a {}
+nav ul li a {
+  color: #37444a;
+  text-decoration: none;
+}
 
-nav ul li a:hover {}
+nav ul li a:hover {
+  color: #ffffff;
+  background-color: #ff036a;
+  border-radius: 0.5em 0.5em 0 0;
+}
 
 
 
 /* use both of these classes to style the active nav link */
 
 
-/* nav ul li a:active {}
+nav ul li a:active {
+  color: #ffffff;
+  background-color: #ff036a;
+  border-radius: 0.5em 0.5em 0 0;
+  padding-top: 2px;
+}
 
-.active {} */
+.active {
+  color: #ffffff;
+  background-color: #ff036a;
+  border-radius: 0.5em 0.5em 0 0;
+}
 
 
 /*------------------Schedule---------------------*/
