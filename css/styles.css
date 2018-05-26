@@ -34,7 +34,7 @@
 /*------------------Global Styles---------------------*/
 
 body {
-    font-family: Montserrat, arial, sans-serif;
+  font-family: Montserrat, arial, sans-serif;
 }
 
 h1,
@@ -51,21 +51,39 @@ a {}
 
 header {}
 
-nav {}
+nav {
+  border-bottom: 5px solid #ff036a;
+}
 
 nav ul li {}
 
-nav ul li a {}
+nav ul li a {
+  color: #37444a;
+  text-decoration: none;
+}
 
-nav ul li a:hover {}
+nav ul li a:hover {
+  color: #ffffff;
+  background-color: #ff036a;
+  border-radius: 0.5em 0.5em 0 0;
+}
 
 
 /* use both of these classes to style the active nav link */
 
 
-/* nav ul li a:active {}
+nav ul li a:active {
+  color: #ffffff;
+  background-color: #ff036a;
+  border-radius: 0.5em 0.5em 0 0;
+  padding-top: 2px;
+}
 
-.active {} */
+.active {
+  color: #ffffff;
+  background-color: #ff036a;
+  border-radius: 0.5em 0.5em 0 0;
+}
 
 
 /*------------------Schedule---------------------*/
@@ -108,15 +126,19 @@ nav ul li a:hover {}
 /*------------------Setup page---------------------*/
 
 
-/*
+div.setup a {
+  color: #ff036a;
+}
 
-div.setup a {}
+div.setup strong {
+  background-color: #4bafff;
+}
 
-div.setup strong {}
+div.setup code {
+  font-style: italic;
+}
 
-div.setup code {}
 
-*/
 
 
 /*------------------Group 1---------------------*/
@@ -177,7 +199,8 @@ div.setup code {}
 
 /*------------------Footer---------------------*/
 
+footer {
+  background-color: #4bafff;
+}
+.footer-logo {}
 
-/* footer {}
-
-.footer-logo {} */
