@@ -132,9 +132,40 @@
             <h2 class="cherry">Cherrypickers</h2>
             <div class="group group4">
                 <div class="person">
-                    <img src="images/person.svg" alt="">
-                    <h4>Name</h4>
-                    <p>what did you learn?</p>
+                    <style>
+                        .richardwestenra {
+                            position: relative;
+                            z-index: -1;
+                        }
+                        .richardwestenra:before,
+                        .richardwestenra:after {
+                            content: '';
+                            background: black;
+                            border-radius: 50%;
+                            height: 2px;
+                            width: 2px;
+                            position: absolute;
+                            top: 30%;
+                            box-shadow: 0 0 0 5px white;
+                            animation: richard infinite linear 0.5s alternate;
+                        }
+                        .richardwestenra:before {
+                            left: 42%;
+                        }
+                        .richardwestenra:after {
+                            left: 58%;
+                            top: 31%;
+                        }
+                        @keyframes richard {
+                            from { box-shadow: 0 0 0 5px white; }
+                            to { box-shadow: 0 0 0 6px white; }
+                        }
+                    </style>
+                    <div class="richardwestenra">
+                        <img src="images/photos/richardW.jpg" alt="Richard Westenra">
+                    </div>
+                    <h4>Richard Westenra</h4>
+                    <p>I learned the true meaning of friendship. And also that you can include a '#' symbol in a branch name and it's okay.</p>
                 </div>
                 <div class="person">
                     <img src="images/photos/HannahS.jpg" alt="">
