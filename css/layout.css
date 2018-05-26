@@ -172,7 +172,7 @@ footer {
 
 .person {
     display: flex;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: center;
     flex-direction: column;
     padding: 10px;
@@ -187,4 +187,9 @@ footer {
 .person img {
     max-width: 90px;
     border-radius: 50%;
+}
+
+.person p {
+    height: 100px;
+    overflow: scroll;
 }
