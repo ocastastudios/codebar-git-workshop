@@ -103,7 +103,9 @@ div.setup strong {
   background-color: #4bafff;
 }
 
-div.setup code {}
+div.setup code {
+  font-style: italic;
+}
 
 
 
