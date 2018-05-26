@@ -182,7 +182,8 @@ div.setup code {
 
 /*------------------Footer---------------------*/
 
+footer {
+  background-color: #4bafff;
+}
 
-/* footer {}
-
-.footer-logo {} */
+.footer-logo {}
