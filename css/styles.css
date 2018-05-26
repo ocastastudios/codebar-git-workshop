@@ -144,7 +144,10 @@ div.setup code {
 /*------------------Group 1---------------------*/
 
 
-/*.groups h2:nth-of-type(1) {}
+.groups h2:nth-of-type(1) {
+  background-color: #19f3be;
+  text-align: center;
+}
 
 .group1 {}
 
@@ -152,7 +155,7 @@ div.setup code {
 
 .group1 .person h4 {}
 
-.group1 .person img {} */
+.group1 .person img {}
 
 
 /*------------------Group 2---------------------*/
@@ -214,6 +217,10 @@ div.setup code {
 
 .group4 .person img {} */
 
+.cherry {
+  color: #c40000;
+}
+
 
 /*------------------Footer---------------------*/
 
@@ -221,4 +228,3 @@ footer {
   background-color: #4bafff;
 }
 .footer-logo {}
-
