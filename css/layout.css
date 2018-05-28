@@ -26,7 +26,11 @@ p {
     max-width: 850px;
     margin: 0 auto;
 }
-
+.main-groups {
+    padding-top: 20px;
+    width: 90%;
+    margin: 0 auto;
+}
 
 /*------------------Header / Nav ---------------------*/
 
